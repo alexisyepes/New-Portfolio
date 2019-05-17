@@ -1,14 +1,22 @@
 .mainBox {
   background:rgba(1, 21, 59, 0.5);
   margin-bottom: 100px;
+  border: solid 1px;
+  border-color: antiquewhite;
+}
+
+.block-header {
+  font-size: 65px;
 }
 
 .btn1 {
     font-size: 20px;
     width: 100%;
-    height: 55px;
+    height: 60px;
     background: rgb(20, 32, 70);
     color: #fff;
+    padding-bottom: 15px;
+    border-color: aqua;
 }
 
 .containerTest {
@@ -113,6 +121,14 @@
       margin-left: auto;  
       margin-right: auto;
    }
+
+   .block-header {
+     font-size: 30px;
+   }
+
+   .middleTest {
+     display: none;
+   }
               
       .imageTest {
       height: 100px !important;
@@ -120,14 +136,15 @@
   
       .btn1 {
           width: 100%;
-          font-size: 8px;
+          height: 35px !important;
+          font-size: 10px;
   
       }
   
       .mainBox {
           margin-bottom: 200px;
-          width: 100%;
-          margin-left: 30px;
+          width: 98%;
+          margin-left: auto;
           margin-right: auto;
       }
   

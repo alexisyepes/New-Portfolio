@@ -7,7 +7,7 @@ export default function index() {
             <main className="row" >
                 <div style={{ borderRadius: "30px" }} className="col-md-12 mainBox">
                     <article className="block" id="workBox" >
-                        <h1 className="block-header" style={{ marginTop: "20px", textAlign: "center", fontSize: "55px" }}>Portfolio</h1>
+                        <h1 className="block-header" style={{ marginTop: "20px", textAlign: "center" }}>Portfolio</h1>
                         <hr></hr>
                         <br></br>
                         <div className="row" >
@@ -15,7 +15,7 @@ export default function index() {
                                 <img className="img-fluid imageTest"
                                     src="/images/vendorBooker_Logo.png" alt="pic 0"></img>
                                 <a style={{ marginBottom: "30px", width: "100%" }} target="blank" href="https://idiaz-vendorbooker.herokuapp.com/" className="btn btn-info btn1"
-                                    role="button">Click for more info</a>
+                                    role="button">More info</a>
                                 <div className="middleTest">
                                     <div className="textTest">
                                         <h4>Vendor Booker</h4>
@@ -34,7 +34,7 @@ export default function index() {
                                 <img className="img-fluid imageTest"
                                     src="/images/googleBookScreenShot.PNG" alt="pic 0"></img>
                                 <a style={{ marginBottom: "30px", width: "100%" }} target="blank" href="https://googlebooksearch-sanabria.herokuapp.com/" className="btn btn-info btn1"
-                                    role="button">Click for more info</a>
+                                    role="button">More info</a>
                                 <div className="middleTest">
                                     <div className="textTest">
                                         <h4>Book Search</h4>
@@ -49,7 +49,7 @@ export default function index() {
                                 <img className="img-fluid imageTest" src="/images/clicky-game2.PNG"
                                     alt="pic 9"></img>
                                 <a style={{ marginBottom: "30px", width: "100%" }} target="blank" href="https://alexisyepes.github.io/clicky-game/" className="btn btn-info btn1"
-                                    role="button">Click for more info</a>
+                                    role="button">More info</a>
                                 <div className="middleTest">
                                     <div className="textTest">
                                         <h4>Clicky Game</h4>
@@ -64,7 +64,7 @@ export default function index() {
                                 <img className="img-fluid imageTest" src="/images/bbclogo.png"
                                     alt="pic 9"></img>
                                 <a style={{ marginBottom: "30px", width: "100%" }} target="blank" href="https://alexyepesnewscraper.herokuapp.com/" className="btn btn-info btn1"
-                                    role="button">Click for more info</a>
+                                    role="button">More info</a>
                                 <div className="middleTest">
                                     <div className="textTest">
                                         <h4>News Scraper</h4>
@@ -79,7 +79,7 @@ export default function index() {
                                 <img className="img-fluid imageTest" src="/images/eventPlannerLogo3.png"
                                     alt="pic 8"></img>
                                 <a style={{ marginBottom: "30px", width: "100%" }} target="blank" href="https://fast-springs-87530.herokuapp.com/booking" className="btn btn-info btn1"
-                                    role="button">Click for more info</a>
+                                    role="button">More info</a>
                                 <div className="middleTest">
                                     <div className="textTest">
                                         <h4>Event Planner</h4>
@@ -93,7 +93,7 @@ export default function index() {
                                 <img className="img-fluid imageTest" src="/images/eatDaBurger.PNG"
                                     alt="pic 8"></img>
                                 <a style={{ marginBottom: "30px", width: "100%" }} target="blank" href="https://lit-shore-28259.herokuapp.com/" className="btn btn-info btn1"
-                                    role="button">Click for more info</a>
+                                    role="button">More info</a>
                                 <div className="middleTest">
                                     <div className="textTest">
                                         <h4>Eat da burger!</h4>
@@ -108,7 +108,7 @@ export default function index() {
                                 <img className="img-fluid imageTest" src="/images/screenshotHome.PNG"
                                     alt="pic 7"></img>
                                 <a style={{ marginBottom: "30px", width: "100%" }} target="blank" href="https://blooming-dusk-13977.herokuapp.com/" className="btn btn-info btn1"
-                                    role="button">Click for more info</a>
+                                    role="button">More info</a>
                                 <div className="middleTest">
                                     <div className="textTest">
                                         <h4>Friend Finder</h4>
@@ -124,7 +124,7 @@ export default function index() {
                                 <img className="img-fluid imageTest" src="/images/card_back.png"
                                     alt="pic 6"></img>
                                 <a style={{ marginBottom: "30px", width: "100%" }} target="blank" href="https://alexisyepes.github.io/project1Alexis/" className="btn btn-info btn1"
-                                    role="button">Click for more info</a>
+                                    role="button">More info</a>
                                 <div className="middleTest">
                                     <div className="textTest">
                                         <h4>Memory Game</h4>
@@ -138,7 +138,7 @@ export default function index() {
                                 <img className="img-fluid imageTest" src="/images/cityBlackAndWhite.jpg"
                                     alt="pic 5"></img>
                                 <a style={{ marginBottom: "30px", width: "100%" }} target="blank" href="https://alexisyepes.github.io/trainSchedule/" className="btn btn-info btn1"
-                                    role="button">Click for more info</a>
+                                    role="button">More info</a>
                                 <div className="middleTest">
                                     <div className="textTest">
                                         <h4>Train Schedule</h4>
@@ -152,7 +152,7 @@ export default function index() {
                                 <img className="img-fluid imageTest" src="/images/giphy_logo.png"
                                     alt="pic 4"></img>
                                 <a style={{ marginBottom: "30px", width: "100%" }} target="blank" href="https://alexisyepes.github.io/GiphyApp/" className="btn btn-info btn1"
-                                    role="button">Click for more info</a>
+                                    role="button">More info</a>
                                 <div className="middleTest">
                                     <div className="textTest">
                                         <h4>Giphy App</h4>
@@ -167,7 +167,7 @@ export default function index() {
                                 <img className="img-fluid imageTest" src="/images/canadaBackground.jpg"
                                     alt="pic 3"></img>
                                 <a style={{ marginBottom: "30px", width: "100%" }} target="blank" href="https://alexisyepes.github.io/TriviaGame/" className="btn btn-info btn1"
-                                    role="button">Click for more info</a>
+                                    role="button">More info</a>
                                 <div className="middleTest">
                                     <div className="textTest">
                                         <h4>Canada Trivia</h4>
@@ -182,7 +182,7 @@ export default function index() {
                                 <img className="img-fluid imageTest" src="/images/youWin.png"
                                     alt="pic 1"></img>
                                 <a style={{ marginBottom: "30px", width: "100%" }} target="blank" href="https://alexisyepes.github.io/Word-Guess-Game/" className="btn btn-info btn1"
-                                    role="button">Click for more info</a>
+                                    role="button">More info</a>
                                 <div className="middleTest">
                                     <div className="textTest">
                                         <h4>Guess the word</h4>
@@ -195,7 +195,7 @@ export default function index() {
                                 <img className="img-fluid imageTest" src="/images/blueCrystal.png"
                                     alt="pic 2"></img>
                                 <a style={{ marginBottom: "30px", width: "100%" }} target="blank" href="https://alexisyepes.github.io/unit-4-game/" className="btn btn-info btn1"
-                                    role="button">Click for more info</a>
+                                    role="button">More info</a>
                                 <div className="middleTest">
                                     <div className="textTest">
                                         <h4>Crystal Collector</h4>
