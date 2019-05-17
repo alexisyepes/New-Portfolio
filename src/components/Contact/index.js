@@ -26,7 +26,7 @@ export default function index() {
                 <h4><b><i class="fas fa-map-marker-alt"></i> Cambridge, ON</b></h4>
                 <br></br>
                 <hr></hr>
-                <a href="/images/Alexis-resume-Milestone-7-Revised.pdf" target="blank"><h4 style={{ color: "white", fontSize: 25 }}><b>Click to view resume</b></h4></a>
+                <a href="/images/Alexis-resume-OnePageMay17.pdf" target="blank"><h4 style={{ color: "white", fontSize: 25 }}><b>Click to view resume</b></h4></a>
 
 
             </div>
