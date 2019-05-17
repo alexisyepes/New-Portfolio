@@ -87,86 +87,88 @@
     border-radius: 60px;
   }
 
-  @media (max-width: 360px) {
-    .boxWrapper {
+  
+@media only screen and (max-width: 768px) {
+    .btn1 {
+      width: 100px;
+    }
+    
+    .imageTest {
+      width: 100% !important;
+      height: auto !important;
+    }
+    
+    .mainBox {
       width: 100%;
       margin-left: auto;
       margin-right: auto;
     }
-
-    .imageTest {
-    width: 100px;
-    height: 100px !important;
-    }
-
-    .btn1 {
-        width: 100%;
-        font-size: 8px;
-
-    }
-
-    .mainBox {
-        margin-bottom: 200px;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .textTest {
-        background-color: black;
-        color: white;
-        font-size: 12px;
-      }
-
-      .middleTest {
-        transition: .5s ease;
-        opacity: 0;
-        z-index: 1;
-        position: absolute;        
-        top: 5%;
-        left: 14%;
-        transform: translate(-25%, -25%);
-        -ms-transform: translate(-50%, -50%);
-        text-align: center;
-      }  
-
-      #connectBoxWork {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-      }
-    
-      #connectIcon1Work {
-        position: absolute;
-        float: left;
-        width: 100px;
-        height: 100px;
-        margin-top: 15px;
-        margin-left: 30px;
-      }
-    
-      #connectIcon2Work {
-        float: right;
-        position: absolute;
-        width: 100px;
-        height: 100px;
-        margin-left: -140px;
-      }
-}
-
-@media (max-width: 768px) {
-  .btn1 {
-    width: 100px;
   }
-
-  .imageTest {
-    width: 100% !important;
-    height: auto !important;
-  }
+              
+@media (max-width: 360px) {
+                  
+    .boxWrapper {
+                  
+      width: 100%;    
+      margin-left: auto;  
+      margin-right: auto;
+   }
+              
+      .imageTest {
+      height: 100px !important;
+      }
   
-  .mainBox {
-   width: 100%;
-   margin-left: auto;
-   margin-right: auto;
-  }
+      .btn1 {
+          width: 100%;
+          font-size: 8px;
+  
+      }
+  
+      .mainBox {
+          margin-bottom: 200px;
+          width: 100%;
+          margin-left: 30px;
+          margin-right: auto;
+      }
+  
+      .textTest {
+          background-color: black;
+          color: white;
+          font-size: 12px;
+        }
+  
+        .middleTest {
+          transition: .5s ease;
+          opacity: 0;
+          z-index: 1;
+          position: absolute;        
+          top: 5%;
+          left: 14%;
+          transform: translate(-25%, -25%);
+          -ms-transform: translate(-50%, -50%);
+          text-align: center;
+        }  
+  
+        #connectBoxWork {
+          width: 90%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      
+        #connectIcon1Work {
+          position: absolute;
+          float: left;
+          width: 100px;
+          height: 100px;
+          margin-top: 15px;
+          margin-left: 30px;
+        }
+      
+        #connectIcon2Work {
+          float: right;
+          position: absolute;
+          width: 100px;
+          height: 100px;
+          margin-left: -140px;
+        }
 }
