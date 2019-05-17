@@ -1,0 +1,60 @@
+.homeSubtitle {
+    color: rgb(250, 251, 252);
+    font-size: 80px;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: -1px 0 rgb(57, 102, 252), 0 1px rgb(57, 102, 252), 1px 0 rgb(57, 102, 252), 0 -1px rgb(57, 102, 252),;
+}
+
+.fullStackDev {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.homeAboutMeBox {
+    color: white;
+    background:rgba(0,0,0,0.5);
+    font-size: 35px;
+    text-align: center;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-decoration: none;
+}
+
+ .linkToAbout a:hover{
+    color: rgb(25, 0, 255);
+}
+
+.homeBox {
+    background:rgba(0,0,0,0.5);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: solid 1px;
+}
+
+@media (max-width: 360px) {
+    .homeSubtitle {
+        font-size: 40px;
+    }
+
+    .fullStackDev {
+        font-size: 30px;
+    }
+
+    .homeAboutMeBox {
+        font-size: 20px;
+
+    }
+}

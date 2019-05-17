@@ -1,0 +1,172 @@
+.mainBox {
+  background:rgba(1, 21, 59, 0.5);
+  margin-bottom: 100px;
+}
+
+.btn1 {
+    font-size: 20px;
+    width: 100%;
+    height: 55px;
+    background: rgb(20, 32, 70);
+    color: #fff;
+}
+
+.containerTest {
+    position: relative;
+    width: 25%;
+  }
+  
+  .imageTest {
+    opacity: 1;
+    display: block;
+    width: 350;
+    height: 350px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middleTest {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    transform: translate(-5%, -5%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .containerTest:hover .imageTest {
+    opacity: 0.3;
+  }
+  
+  .containerTest:hover .middleTest {
+    opacity: 1;
+  }
+  
+  .textTest {
+    background-color: rgba(7, 0, 0, 0.5);
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  #connectBoxWork {
+    color: rgb(5, 13, 41);
+    height: 300px;
+    width: 400px;
+    background:rgba(247, 248, 250, 0.486);
+    border: solid 1px;
+    border-radius: 20px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+  }
+
+  #connectIcon1Work {
+    width: 130px;
+    height: 130px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: white;
+    padding: 10px;
+    border-radius: 60px;
+  }
+
+  #connectIcon2Work {
+    width: 130px;
+    height: 130px;
+    margin-top: 15px;
+    background: white;
+    padding: 10px;
+    border-radius: 60px;
+  }
+
+  @media (max-width: 360px) {
+    .boxWrapper {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .imageTest {
+    width: 100px;
+    height: 100px !important;
+    }
+
+    .btn1 {
+        width: 100%;
+        font-size: 8px;
+
+    }
+
+    .mainBox {
+        margin-bottom: 200px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .textTest {
+        background-color: black;
+        color: white;
+        font-size: 12px;
+      }
+
+      .middleTest {
+        transition: .5s ease;
+        opacity: 0;
+        z-index: 1;
+        position: absolute;        
+        top: 5%;
+        left: 14%;
+        transform: translate(-25%, -25%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }  
+
+      #connectBoxWork {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    
+      #connectIcon1Work {
+        position: absolute;
+        float: left;
+        width: 100px;
+        height: 100px;
+        margin-top: 15px;
+        margin-left: 30px;
+      }
+    
+      #connectIcon2Work {
+        float: right;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        margin-left: -140px;
+      }
+}
+
+@media (max-width: 768px) {
+  .btn1 {
+    width: 100px;
+  }
+
+  .imageTest {
+    width: 100% !important;
+    height: auto !important;
+  }
+  
+  .mainBox {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+  }
+}

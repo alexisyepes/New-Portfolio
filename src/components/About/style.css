@@ -1,0 +1,251 @@
+.pic {
+    float: right;
+    width: 220px;
+    height: 160px;
+    border-radius: 100px;
+    margin: 0 20px 20px 0;
+}
+
+.aboutBox {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background:rgba(1, 21, 59, 0.5);
+    border-radius: 100px;
+    border: solid 1px;
+    margin-bottom: 120px;
+
+}
+
+.aboutTitle {
+    font-size: 60px;
+    background:rgba(0, 6, 15, 0.5);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    border: solid 1px;
+}
+
+.aboutParag {
+    font-size: 30px;
+    text-align: left;
+    color: white;
+}
+
+.skillsTitle {
+    color: rgb(3, 0, 0);
+    font-weight: bolder;
+    text-align: center;
+    font-size: 60px;
+    padding: 20px;
+    margin-bottom: 50px;
+    text-shadow: -1px 0 rgb(251, 251, 252), 0 2px rgb(248, 249, 250), 2px 0 rgb(252, 253, 253), 0 -1px rgb(252, 253, 253),;
+
+}
+
+.lineUnderSkills {
+    margin-top: -10px;
+    width: 20%;
+}
+
+.aboutIcons {
+    width: 120px;
+    height: 70px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.aboutIconsCss {
+    width: 200px;
+    height: 120px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.aboutIconsJs {
+    width: 90px;
+    height: 60px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.aboutIconsJq {
+    width: 90px;
+    height: 60px;
+    margin-right: 20px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.aboutIconsNode {
+    width: 90px;
+    height: 80px;
+    margin-right: 20px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.aboutIconsReact {
+    width: 110px;
+    height: 80px;
+    margin-right: 20px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.aboutIconsBootstrap {
+    width: 140px;
+    height: 100px;
+    margin-right: 20px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.aboutIconsMysql {
+    width: 140px;
+    height: 100px;
+    margin-right: 20px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.aboutIconsMongodb {
+    width: 140px;
+    height: 100px;
+    margin-right: 20px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.aboutIconsGithub {
+    width: 120px;
+    height: 80px;
+    margin-right: 20px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.aboutIconsPs {
+    width: 280px;
+    height: 130px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.aboutIconsIll {
+    width: 75px;
+    height: 75px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+
+.skillsParag {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-bottom: -70px;
+    padding: 20px;
+    text-align: left;
+}
+
+.iconsBox {
+    /* background:rgba(248, 246, 246, 0.5); */
+    background:rgba(254, 255, 255, 0.623);
+    padding: 20px;
+    padding-top: 40px;
+    border-radius: 100px;
+}
+
+hr {
+    background: white;
+}
+
+#connectBox {
+    color: rgb(20, 32, 70);
+    height: 200px;
+    width: 400px;
+    background:rgba(247, 248, 250, 0.5);
+    border: solid 1px;
+    border-radius: 20px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+  }
+
+  #connectIcon1About {
+    width: 75px;
+    height: 75px;
+    margin-top: 15px;
+  }
+
+  #connectIcon2About {
+    width: 75px;
+    height: 75px;
+    margin-top: 15px;
+  }
+
+  @media (max-width: 360px) {
+    .aboutBox {
+      color: white;
+      width: 98%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .aboutTitle {
+        font-size: 30px;
+    }
+
+    .aboutParag {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .pic {
+        float: right;
+        width: 100%;
+        height: 200px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .skillsTitle {
+        font-size: 30px;
+    }
+
+    .lineUnderSkills {
+        margin-top: 0.5px;
+        width: 40%;
+    }
+    
+    .aboutIcons, .aboutIconsCss, .aboutIconsJs, .aboutIconsJq, .aboutIconsNode, 
+    .aboutIconsReact, .aboutIconsBootstrap, .aboutIconsMysql, .aboutIconsMongodb, .aboutIconsGithub, .aboutIconsPs, .aboutIconsIll{
+     display: none;
+    }
+    
+    #connectBox {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #connectIcon1About {
+        position: absolute;
+        float: left;
+        width: 50px;
+        height: 50px;
+        margin-top: 15px;
+        margin-left: 30px;
+      }
+    
+      #connectIcon2About {
+        float: right;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        margin-left: -70px;
+      }
+}
