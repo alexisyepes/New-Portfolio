@@ -6,9 +6,9 @@ export default class index extends Component {
         return (
             <div>
                 <div>
-                <a target="blank" href="https://github.com/alexisyepes/clicky-game"><button type="button" class="fixed btn btn-info title-btn1">Github</button></a>
-                <a target="blank" href="https://alexisyepes.github.io/clicky-game/"><button type="button" class="btn btn-info title-btn2">Live site</button></a>
-                <a href="/work"><button type="button" class="btn btn-info title-btn3"><i class="far fa-arrow-alt-circle-left"></i> to Projects</button></a>
+                <a target="blank" href="https://github.com/alexisyepes/clicky-game"><button type="button" className="btn btn-info p3title-btn1">Github</button></a>
+                <a target="blank" href="https://alexisyepes.github.io/clicky-game/"><button type="button" className="btn btn-info p3title-btn2">Live site</button></a>
+                <a href="/work"><button type="button" className="btn btn-info p3title-btn3"><i className="far fa-arrow-alt-circle-left"></i> to Projects</button></a>
             </div>
             <div className="container project1Box">
 
