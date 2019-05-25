@@ -3,7 +3,7 @@
     width: 220px;
     height: 160px;
     border-radius: 100px;
-    margin: 0 20px 20px 0;
+    margin-left: 15px;
 }
 
 .aboutBox {
@@ -28,7 +28,7 @@
 
 .aboutParag {
     font-size: 30px;
-    text-align: left;
+    text-align: justify;
     color: white;
 }
 

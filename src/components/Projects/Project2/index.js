@@ -20,7 +20,7 @@ export default class index extends Component {
                         </div>
                         <div className="col-md-6 project2TextBox">
                             <h2 className="p2descriptionTitle"><b>Description</b></h2>
-                            <p className="projectParag">This is a Full-stack app made with google-book APIs and React.
+                            <p className="proj2projectParag">This is a Full-stack app made with google-book APIs and React.
                             All types of books are available through google-play store, but you have to buy them yourself :) .
                         </p>
                         </div>
@@ -50,7 +50,7 @@ export default class index extends Component {
                             </ul>
                         </div>
                         <div className="col-md-6 p2thirdImg">
-                            <img alt="project1" src="./images/project2ThirdPic.png" className="project1ThirdPic"></img>
+                            <img alt="project1" src="./images/project2ThirdPic.png" className="project2ThirdPic"></img>
                         </div>
                     </div>
                 </div>

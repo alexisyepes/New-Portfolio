@@ -9,9 +9,10 @@
     margin-bottom: 100px;
 }
 
-.projectParag {
+.p1projectParag {
     color: white;
     font-size: 25px;
+    text-align: justify;
 }
 
 .projectTitles {

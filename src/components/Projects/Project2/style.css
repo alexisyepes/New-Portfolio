@@ -9,9 +9,10 @@
     margin-bottom: 100px;
 }
 
-.projectParag {
+.proj2projectParag {
     color: white;
     font-size: 25px;
+    text-align: justify;
 }
 
 .projectTitles {
@@ -56,9 +57,9 @@ li {
 
 }
 
-.project1ThirdPic {
+.project2ThirdPic {
     width: 100%;
-    margin-top: -130px;
+    margin-top: -70px;
 }
 
 .project2TextBox {
@@ -102,10 +103,12 @@ li {
     
     .p2descriptionTitle, .p2buildingTitle {
         font-size: 25px;
+        text-align: center;
     }
     
-    .projectParag {
-        font-size: 20px;
+    .proj2projectParag {
+        font-size: 18px;
+        text-align: justify;
     }
 
     .p2titles {
