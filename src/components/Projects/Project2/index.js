@@ -16,7 +16,7 @@ export default class index extends Component {
                     <hr></hr>
                     <div className="row projectPair">
                         <div className="col-md-6">
-                            <img alt="project2" src="./images/project2.png" className="project2"></img>
+                            <img alt="project2" src="./images/project2.PNG" className="project2"></img>
                         </div>
                         <div className="col-md-6 project2TextBox">
                             <h2 className="p2descriptionTitle"><b>Description</b></h2>
