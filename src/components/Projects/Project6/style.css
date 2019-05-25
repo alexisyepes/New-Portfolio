@@ -1,0 +1,63 @@
+.project1 {
+    width: 100%;
+}
+
+.project1Box {
+    background:rgba(8, 8, 8, 0.897);
+    padding: 30px;
+    color: white;
+    margin-bottom: 100px;
+    font-size: 6px;
+
+}
+
+.projectParag {
+    color: white;
+}
+
+.projectTitles {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+li {
+    font-size: 18px
+}
+
+.projectPair {
+    margin-bottom: 30px;
+}
+
+.title-btn1 {
+    position: fixed;
+    margin-left: 1080px;
+    z-index: 100;
+    font-size: 28px;
+    background: rgb(5, 23, 56);
+    margin-top: -30px;
+}
+
+.title-btn2 {
+    background: rgb(5, 23, 56);
+    margin-left: 1200px;
+    position: fixed;
+    z-index: 100;
+    font-size: 28px;
+    margin-top: -30px;
+
+}
+
+.title-btn3 {
+    background: rgb(5, 23, 56);
+    margin-left: 1340px;
+    position: fixed;
+    z-index: 100;
+    font-size: 16px;
+    margin-top: -30px;
+
+}
+
+.project6ThirdPic {
+    width: 100%;
+    margin-top: 20px;
+}
