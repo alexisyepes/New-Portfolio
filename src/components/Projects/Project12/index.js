@@ -6,9 +6,9 @@ export default class index extends Component {
         return (
             <div>
                 <div>
-                    <a target="blank" href="https://github.com/alexisyepes/Word-Guess-Game"><button type="button" class="fixed btn btn-info title-btn1">Github</button></a>
-                    <a target="blank" href="https://alexisyepes.github.io/Word-Guess-Game/"><button type="button" class="btn btn-info title-btn2">Live site</button></a>
-                    <a href="/work"><button type="button" class="btn btn-info title-btn3"><i class="far fa-arrow-alt-circle-left"></i> to Projects</button></a>
+                    <a target="blank" href="https://github.com/alexisyepes/Word-Guess-Game"><button type="button" class="fixed btn btn-info p12title-btn1">Github</button></a>
+                    <a target="blank" href="https://alexisyepes.github.io/Word-Guess-Game/"><button type="button" class="btn btn-info p12title-btn2">Live site</button></a>
+                    <a href="/work"><button type="button" class="btn btn-info p12title-btn3"><i class="far fa-arrow-alt-circle-left"></i> to Projects</button></a>
                 </div>
                 <div className="container project1Box">
 
@@ -19,11 +19,11 @@ export default class index extends Component {
                             <img alt="project1" src="./images/project12.png" className="project1"></img>
                         </div>
                         <div className="col-md-6 project1TextBox">
-                            <h3><b>Description</b></h3>
-                            <p className="projectParag">Simple game where the user has to guess the correct
+                            <h2 className="p12Titles"><b>Description</b></h2>
+                            <p className="p12projectParag">Simple game where the user has to guess the correct
                             country-word in less the 9 guesses.
                         </p>
-                            <h3><b>Building Tools</b></h3>
+                            <h2 className="p12Titles"><b>Building Tools</b></h2>
                             <br />
                             <ul>
                                 <li>HTML, CSS</li>

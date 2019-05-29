@@ -6,9 +6,9 @@ export default class index extends Component {
         return (
             <div>
                 <div>
-                    <a target="blank" href="https://github.com/alexisyepes/newsScraper"><button type="button" className="btn btn-info p3title-btn1">Github</button></a>
-                    <a target="blank" href="https://alexyepesnewscraper.herokuapp.com/"><button type="button" className="btn btn-info p3title-btn2">Live site</button></a>
-                    <a href="/work"><button type="button" className="btn btn-info p3title-btn3"><i className="far fa-arrow-alt-circle-left"></i> to Projects</button></a>
+                    <a target="blank" href="https://github.com/alexisyepes/newsScraper"><button type="button" className="btn btn-info p4title-btn1">Github</button></a>
+                    <a target="blank" href="https://alexyepesnewscraper.herokuapp.com/"><button type="button" className="btn btn-info p4title-btn2">Live site</button></a>
+                    <a href="/work"><button type="button" className="btn btn-info p4title-btn3"><i className="far fa-arrow-alt-circle-left"></i> to Projects</button></a>
                 </div>
                 <div className="container project1Box">
 
@@ -19,8 +19,8 @@ export default class index extends Component {
                             <img alt="project1" src="./images/project4.png" className="project1"></img>
                         </div>
                         <div className="col-md-6 project1TextBox">
-                            <h2 style={{ textAlign: "center" }}>Description</h2>
-                            <p className="projectParag">This is a web app that lets users view and leave comments on the latest
+                            <h2 style={{ textAlign: "center" }} className="p4description">Description</h2>
+                            <p className="p4projectParag">This is a web app that lets users view and leave comments on the latest
                             news from BBC science section. Using Cheerio we grab the news from the BBC website, save them to our
                             Mongo database and render them in our app.
                         </p>
@@ -32,8 +32,8 @@ export default class index extends Component {
                             <img alt="project1" src="./images/project4SecondPic.png" className="project1"></img>
                         </div>
                         <div className="col-md-6 project1TextBox">
-                            <h2 style={{ textAlign: "center" }}>Building Tools</h2>
-                            <h4>FRONT END</h4>
+                            <h2 style={{ textAlign: "center" }} className="p4buildingTitle">Building Tools</h2>
+                            <h4 className="p4frontTile">FRONT END</h4>
                             <ul>
                                 <li>HTML, CSS</li>
                                 <li>Javascript</li>
@@ -42,7 +42,7 @@ export default class index extends Component {
                                 <li>Axios and Cheerios</li>
 
                             </ul>
-                            <h4>BACK END</h4>
+                            <h4 className="p4backTile">BACK END</h4>
                             <ul>
                                 <li>node.js</li>
                                 <li>Express</li>

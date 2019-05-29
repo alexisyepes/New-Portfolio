@@ -6,9 +6,9 @@ export default class index extends Component {
         return (
             <div>
                 <div>
-                <a target="blank" href="https://github.com/alexisyepes/GiphyApp"><button type="button" class="fixed btn btn-info title-btn1">Github</button></a>
-                <a target="blank" href="https://alexisyepes.github.io/GiphyApp/"><button type="button" class="btn btn-info title-btn2">Live site</button></a>
-                <a href="/work"><button type="button" class="btn btn-info title-btn3"><i class="far fa-arrow-alt-circle-left"></i> to Projects</button></a>
+                <a target="blank" href="https://github.com/alexisyepes/GiphyApp"><button type="button" class="fixed btn btn-info p10title-btn1">Github</button></a>
+                <a target="blank" href="https://alexisyepes.github.io/GiphyApp/"><button type="button" class="btn btn-info p10title-btn2">Live site</button></a>
+                <a href="/work"><button type="button" class="btn btn-info p10title-btn3"><i class="far fa-arrow-alt-circle-left"></i> to Projects</button></a>
             </div>
             <div className="container project1Box">
 
@@ -19,8 +19,8 @@ export default class index extends Component {
                         <img alt="project1" src="./images/project10.png" className="project1"></img>
                     </div>
                     <div className="col-md-6 project1TextBox">
-                        <h1>Description</h1>
-                        <p className="projectParag">Small project to display gifs from the Giphy website, 
+                        <h1 className="p10Titles">Description</h1>
+                        <p className="p10projectParag">Small project to display gifs from the Giphy website, 
                         based on the user's choice. It also adds a new button with new gifs.
                         </p>
                     </div>
@@ -31,7 +31,7 @@ export default class index extends Component {
                         <img alt="project1" src="./images/project10SecondPic.png" className="project1"></img>
                     </div>
                     <div className="col-md-6 project1TextBox">
-                        <h1>Building Tools</h1>
+                        <h1 className="p10Titles">Building Tools</h1>
                         <br />
                         <ul>
                             <li>HTML, CSS</li>

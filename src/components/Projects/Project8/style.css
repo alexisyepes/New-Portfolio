@@ -9,9 +9,10 @@
     margin-bottom: 100px;
 }
 
-.projectParag {
+.p8projectParag {
     color: white;
     font-size: 25px;
+    text-align: justify;
 }
 
 .projectTitles {
@@ -27,7 +28,7 @@ li {
     margin-bottom: 30px;
 }
 
-.title-btn1 {
+.p8title-btn1 {
     position: fixed;
     margin-left: 1080px;
     z-index: 100;
@@ -36,7 +37,7 @@ li {
     margin-top: -30px;
 }
 
-.title-btn2 {
+.p8title-btn2 {
     background: rgb(5, 23, 56);
     margin-left: 1200px;
     position: fixed;
@@ -46,7 +47,7 @@ li {
 
 }
 
-.title-btn3 {
+.p8title-btn3 {
     background: rgb(5, 23, 56);
     margin-left: 1340px;
     position: fixed;
@@ -54,4 +55,92 @@ li {
     font-size: 16px;
     margin-top: -30px;
 
+}
+
+@media (max-width: 360px) {
+    .p8title-btn1 {
+        position: fixed;
+        top: 7;
+        left: 0;
+        font-size: 16px;
+        width: 33%;
+        margin-left: 0;
+    }
+    .p8title-btn2 {
+        position: fixed;
+        top: 7;
+        left: 0;
+        font-size: 16px;
+        width: 33%;
+        margin-left: 33%;
+    }
+    .p8title-btn3 {
+        position: fixed;
+        top: 7;
+        left: 0;
+        font-size: 16px;
+        width: 33%;
+        margin-left: 66%;
+    }
+    .p8projectParag {
+        font-size: 22px;
+    }
+    .p8Titles {
+        text-align: center;
+        margin-top: 15px;
+    }
+}
+@media (max-width: 768px) {
+    .p8title-btn1 {
+        position: fixed;
+        top: 7;
+        left: 0;
+        font-size: 16px;
+        width: 33%;
+        margin-left: 0;
+    }
+    .p8title-btn2 {
+        position: fixed;
+        top: 7;
+        left: 0;
+        font-size: 16px;
+        width: 33%;
+        margin-left: 33%;
+    }
+    .p8title-btn3 {
+        position: fixed;
+        top: 7;
+        left: 0;
+        font-size: 16px;
+        width: 33%;
+        margin-left: 66%;
+
+    }
+}
+@media (max-width: 1100px) {
+    .p8title-btn1 {
+        position: fixed;
+        top: 7;
+        left: 0;
+        font-size: 16px;
+        width: 33%;
+        margin-left: 0;
+    }
+    .p8title-btn2 {
+        position: fixed;
+        top: 7;
+        left: 0;
+        font-size: 16px;
+        width: 33%;
+        margin-left: 33%;
+    }
+    .p8title-btn3 {
+        position: fixed;
+        top: 7;
+        left: 0;
+        font-size: 16px;
+        width: 33%;
+        margin-left: 66%;
+
+    }
 }

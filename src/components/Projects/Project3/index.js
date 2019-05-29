@@ -19,8 +19,8 @@ export default class index extends Component {
                         <img alt="project3" src="./images/project3.PNG" className="project3"></img>
                     </div>
                     <div className="col-md-6 project1TextBox">
-                        <h3><b>Description</b></h3>
-                        <p className="projectParag">This is a memory game created with React. The application 
+                        <h3 className="p3description"><b>Description</b></h3>
+                        <p className="p3projectParag">This is a memory game created with React. The application 
                         renders different images of The Incredibles Super Heroes to the screen. Each image listens 
                         for click events that re-order them to random positions.
                         </p>
@@ -32,7 +32,7 @@ export default class index extends Component {
                         <img alt="project1" src="./images/project3SecondPic.png" className="project1"></img>
                     </div>
                     <div className="col-md-6 project1TextBox">
-                        <h3><b>Building Tools</b></h3>
+                        <h3 className="p3buildingTitle"><b>Building Tools</b></h3>
                         <br />
                         <ul>
                             <li>HTML, CSS</li>

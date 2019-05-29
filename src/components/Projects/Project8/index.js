@@ -6,9 +6,9 @@ export default class index extends Component {
         return (
             <div>
                 <div>
-                    <a target="blank" href="https://github.com/alexisyepes/project1Alexis"><button type="button" class="fixed btn btn-info title-btn1">Github</button></a>
-                    <a target="blank" href="https://alexisyepes.github.io/project1Alexis/"><button type="button" class="btn btn-info title-btn2">Live site</button></a>
-                    <a href="/work"><button type="button" class="btn btn-info title-btn3"><i class="far fa-arrow-alt-circle-left"></i> to Projects</button></a>
+                    <a target="blank" href="https://github.com/alexisyepes/project1Alexis"><button type="button" class="fixed btn btn-info p8title-btn1">Github</button></a>
+                    <a target="blank" href="https://alexisyepes.github.io/project1Alexis/"><button type="button" class="btn btn-info p8title-btn2">Live site</button></a>
+                    <a href="/work"><button type="button" class="btn btn-info p8title-btn3"><i class="far fa-arrow-alt-circle-left"></i> to Projects</button></a>
                 </div>
                 <div className="container project1Box">
 
@@ -19,9 +19,9 @@ export default class index extends Component {
                             <img alt="project1" src="./images/project8.png" className="project1"></img>
                         </div>
                         <div className="col-md-6 project1TextBox">
-                            <h1>Description</h1>
+                            <h1 className="p8Titles">Description</h1>
                             <br/>
-                            <p className="projectParag" style={{ fontSize: "20px" }}>Our web version of the popular memory card game where the 
+                            <p className="p8projectParag">Our web version of the popular memory card game where the 
                             objective is to collect the most pairs of cards. This version will allow a player to play 
                             any of three modes: easy (just choose the number of pairs), timed (same as easy but with timed 
                             countdown) and challenge (a progressively difficult game). The player will also be able to log 
@@ -39,7 +39,7 @@ export default class index extends Component {
                             <img alt="project1" src="./images/project8SecondPic.png" className="project1"></img>
                         </div>
                         <div className="col-md-6 project1TextBox">
-                            <h1>Building Tools</h1>
+                            <h1 className="p8Titles">Building Tools</h1>
                             <br />
                             <ul>
                                 <li>HTML, CSS</li>

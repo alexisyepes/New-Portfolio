@@ -9,7 +9,7 @@
     margin-bottom: 100px;
 }
 
-.p1projectParag {
+.p4projectParag {
     color: white;
     font-size: 25px;
 }
@@ -27,7 +27,7 @@ li {
     margin-bottom: 30px;
 }
 
-.p3title-btn1 {
+.p4title-btn1 {
     position: fixed;
     margin-left: 1080px;
     z-index: 100;
@@ -36,7 +36,7 @@ li {
     margin-top: -30px;
 }
 
-.p3title-btn2 {
+.p4title-btn2 {
     background: rgb(5, 23, 56);
     margin-left: 1200px;
     position: fixed;
@@ -45,7 +45,7 @@ li {
     margin-top: -30px;
 }
 
-.p3title-btn3 {
+.p4title-btn3 {
     background: rgb(5, 23, 56);
     margin-left: 1340px;
     position: fixed;
@@ -55,7 +55,7 @@ li {
 }
 
 @media (max-width: 360px) {
-    .p3title-btn1 {
+    .p4title-btn1 {
         position: fixed;
         top: 7;
         left: 0;
@@ -63,7 +63,7 @@ li {
         width: 33%;
         margin-left: 0;
     }
-    .p3title-btn2 {
+    .p4title-btn2 {
         position: fixed;
         top: 7;
         left: 0;
@@ -71,7 +71,7 @@ li {
         width: 33%;
         margin-left: 33%;
     }
-    .p3title-btn3 {
+    .p4title-btn3 {
         position: fixed;
         top: 7;
         left: 0;
@@ -80,17 +80,83 @@ li {
         margin-left: 66%;
     }
 
-    .p1description, .p1building {
+    .p4description, .p1building {
         font-size: 30px;
         margin-top: 30px;
         text-align: center;
     }
 
-    .p1projectParag {
+    .p4projectParag {
         font-size: 15px;
     }
 
-    .p1titles {
+    .p4titles {
         font-size: 20px;
+    }
+
+    .p4buildingTitle {
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+    .p4frontTile, .p4backTile {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .p4title-btn1 {
+        position: fixed;
+        top: 7;
+        left: 0;
+        font-size: 16px;
+        width: 33%;
+        margin-left: 0;
+    }
+    .p4title-btn2 {
+        position: fixed;
+        top: 7;
+        left: 0;
+        font-size: 16px;
+        width: 33%;
+        margin-left: 33%;
+    }
+    .p4title-btn3 {
+        position: fixed;
+        top: 7;
+        left: 0;
+        font-size: 16px;
+        width: 33%;
+        margin-left: 66%;
+
+    }
+}
+
+@media (max-width: 1100px) {
+    .p4title-btn1 {
+        position: fixed;
+        top: 7;
+        left: 0;
+        font-size: 16px;
+        width: 33%;
+        margin-left: 0;
+    }
+    .p4title-btn2 {
+        position: fixed;
+        top: 7;
+        left: 0;
+        font-size: 16px;
+        width: 33%;
+        margin-left: 33%;
+    }
+    .p4title-btn3 {
+        position: fixed;
+        top: 7;
+        left: 0;
+        font-size: 16px;
+        width: 33%;
+        margin-left: 66%;
+
     }
 }
