@@ -11,6 +11,21 @@ export default function index() {
                         <hr></hr>
                         <br></br>
                         <div className="row" >
+                        <div className="col-sm-3 col-md-12 col-lg-3 containerTest">
+                                <img className="img-fluid imageTest"
+                                    src="/images/amazingPetGrooming.png" alt="pic 0"></img>
+                                <a style={{ marginBottom: "30px", width: "100%" }} href="/project0" className="btn btn-info btn1"
+                                    role="button">More info</a>
+                                <div className="middleTest">
+                                    <div className="textTest">
+                                        <h4>Amazing Pet Grooming</h4>
+                                        <hr></hr>
+                                        <p>Freelance Job. This website was created using React.
+                                           It's a work in progress as a database will be integrated to handle the clients information.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                             <div className="col-sm-3 col-md-12 col-lg-3 containerTest">
                                 <img className="img-fluid imageTest"
                                     src="/images/vendorBooker_Logo.png" alt="pic 0"></img>

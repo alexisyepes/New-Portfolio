@@ -7,6 +7,7 @@ import Backdrop from './components/Backdrop/Backdrop';
 import About from './components/About';
 import Footer from './components/Footer';
 import Work from './components/Work';
+import Project0 from './components/Projects/Project0';
 import Project1 from './components/Projects/Project1';
 import Project2 from './components/Projects/Project2';
 import Project3 from './components/Projects/Project3';
@@ -62,6 +63,7 @@ class App extends Component {
           <Route exact path="/about" component={About} />
           <Route exact path="/work" component={Work} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/project0" component={Project0} />
           <Route exact path="/project1" component={Project1} />
           <Route exact path="/project2" component={Project2} />
           <Route exact path="/project3" component={Project3} />

@@ -7,7 +7,7 @@ export default class index extends Component {
             <div>
                 <div>
                     <a target="blank" href="https://github.com/alexisyepes/Vendor-booker"><button type="button" className="btn btn-info p1title-btn1">Github</button></a>
-                    <a target="blank" href="https://idiaz-vendorbooker.herokuapp.com/"><button type="button" className="btn btn-info p1title-btn2">Live site</button></a>
+                    <a target="blank" href="https://vendor-booker-alex.herokuapp.com/"><button type="button" className="btn btn-info p1title-btn2">Live site</button></a>
                     <a href="/work"><button type="button" className="btn btn-info p1title-btn3"><i className="far fa-arrow-alt-circle-left"></i> to Projects</button></a>
                 </div>
                 <div className="container project1Box">
