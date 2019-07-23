@@ -20,8 +20,8 @@ export default function index() {
                                     <div className="textTest">
                                         <h4>Amazing Pet Grooming</h4>
                                         <hr></hr>
-                                        <p>Freelance Job. This website was created using React.
-                                           It's a work in progress as a database will be integrated to handle the clients information.
+                                        <p>This Full-Stack-App was created for an actual business using React, Express, MySql and Sequelize.
+                                        It's a work in progress as more features are being integrated to the the back end.
                                         </p>
                                     </div>
                                 </div>
