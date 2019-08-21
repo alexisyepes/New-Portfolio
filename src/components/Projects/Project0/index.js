@@ -20,7 +20,7 @@ export default class index extends Component {
                         </div>
                         <div className="col-md-6 project0TextBox">
                             <h1 className="p0description">Description</h1>
-                            <p className="p0projectParag">This full-stack-App was created for a pet grooming business and it's is a work in progress as more features are getting added. Credentials to test the admin page are: <br />test@test.ca <br />Password: 123456.
+                            <p className="p0projectParag">This full-stack-App was created for a pet grooming business and it's is a work in progress as more features are getting added. Credentials to test the admin page are: <br />test1@test.ca <br />Password: 123456.
                         </p>
                         </div>
                     </div>
