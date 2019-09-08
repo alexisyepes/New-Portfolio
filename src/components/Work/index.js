@@ -20,7 +20,7 @@ export default function index() {
                                     <div className="textTest">
                                         <h4>Amazing Pet Grooming</h4>
                                         <hr></hr>
-                                        <p>This Full-Stack-App was created for an actual business using React, Express, MySql and Sequelize.
+                                        <p>This Full-Stack-App was created for an actual business using React, NodeJs, Express, MySql, Sequelize, PassportJs, JWT, .
                                         It's a work in progress as more features are being integrated to the the back end.
                                         </p>
                                     </div>

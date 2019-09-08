@@ -20,8 +20,37 @@ export default class index extends Component {
                         </div>
                         <div className="col-md-6 project0TextBox">
                             <h1 className="p0description">Description</h1>
-                            <p className="p0projectParag">This full-stack-App was created for a pet grooming business and it's is a work in progress as more features are getting added. Credentials to test the admin page are: <br />test1@test.ca <br />Password: 123456.
-                        </p>
+                            <p className="p0projectParag">This full-stack-App was created for a pet grooming business and it's is a work in progress as more features are getting added. A calendar is getting integrated for the staff to handle appointments based on each employee schedule. Credentials to test the admin page are: <br />test1@test.ca <br />Password: 123456.<br></br>
+                                Credentials to test employees page are:
+                            <br />testEmployee@email.com <br />Password: 123456.<br></br>
+                            </p>
+                        </div>
+                    </div>
+                    <div className="row projectPair">
+                        <div className="col-md-6">
+                            <img alt="project0" src="./images/amazingPetGroomingScreenshot1.jpg" className="project0"></img>
+                        </div>
+                        <div className="col-md-6 project0TextBox">
+
+                            <h1 className="p0building">Building Tools</h1>
+                            <br />
+                            <h4 className="p0titles">FRONT END</h4>
+                            <ul>
+                                <li>HTML, CSS</li>
+                                <li>Javascript</li>
+                                <li>React (JSX)</li>
+                                <li>Bootstrap</li>
+                                <li>AXIOS</li>
+                                <li>React Big Calendar</li>
+                            </ul>
+                            <h4 className="p0titles">BACK END</h4>
+                            <ul>
+                                <li>node.js</li>
+                                <li>Express</li>
+                                <li>MySql / JAWS_DB (Heroku)</li>
+                                <li>Passport-Local and JWT</li>
+                            </ul>
+
                         </div>
                     </div>
                 </div>
