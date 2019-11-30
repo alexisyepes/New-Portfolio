@@ -8,7 +8,7 @@ export default class index extends Component {
 				<div>
 					<a
 						target="blank"
-						href="https://github.com/alexisyepes/PetgroomingWebApplication"
+						href="https://github.com/alexisyepes/event-managament-system"
 					>
 						<button type="button" className="btn btn-info p0title-btn1">
 							Github
@@ -16,7 +16,7 @@ export default class index extends Component {
 					</a>
 					<a
 						target="blank"
-						href="https://petgroomingwebapplication.herokuapp.com/"
+						href="https://event-management-system-alex.herokuapp.com/"
 					>
 						<button type="button" className="btn btn-info p0title-btn2">
 							Live site
@@ -29,38 +29,35 @@ export default class index extends Component {
 					</a>
 				</div>
 				<div className="container project0Box">
-					<h1 className="projectTitles">Pet Grooming Web Application</h1>
+					<h1 className="projectTitles">Event Management System</h1>
 					<hr></hr>
 					<div className="row projectPair">
 						<div className="col-md-6">
 							<img
 								alt="project0"
-								src="./images/amazingPetGroomingScreenshot.jpg"
+								src="./images/eventManageSystem2.JPG"
 								className="project0"
 							></img>
 						</div>
 						<div className="col-md-6 project0TextBox">
 							<h1 className="p0description">DESCRIPTION</h1>
 							<p className="p0projectParag">
-								This application was created for a real pet grooming business to
-								solve a number of issues they were facing before. Note: The code
-								on this repository is not exactly the same as the one being used
-								in production for the business (privacy, database, and
-								confidentiality reasons), but it is close enough to show the
-								overall functionality of this application.<br></br>
+								This full-stack-app will allow you to organize your schedule in
+								a better way. You can create events to be added to your own
+								personal account, and add guests to those events. Using a
+								calendar to select the desired dates and times, you will manage
+								your appointments to keep track on your busy schedule and never
+								miss those important dates. Organize parties, meetings, and much
+								more.<br></br>
 								<a
 									target="blank"
-									href="https://github.com/alexisyepes/PetgroomingWebApplication"
+									href="https://github.com/alexisyepes/event-managament-system"
 								>
 									See more detailed information on Github
 								</a>
 								<br></br>
-								Credentials to test the admin page are: <br />
-								test1@test.ca <br />
-								Password: 123456.<br></br>
-								Credentials to test employees page are:
-								<br />
-								testEmployee@email.com <br />
+								Credentials to test the personal page are: <br />
+								terminator@yahoo.com <br />
 								Password: 123456.<br></br>
 							</p>
 						</div>
@@ -69,7 +66,7 @@ export default class index extends Component {
 						<div className="col-md-6">
 							<img
 								alt="project0"
-								src="./images/amazingPetGroomingScreenshot1.jpg"
+								src="./images/eventManageSystem.JPG"
 								className="project0"
 							></img>
 						</div>
@@ -78,7 +75,6 @@ export default class index extends Component {
 							<br />
 							<h4 className="p0titles">FRONT END</h4>
 							<ul>
-								<li className="technologiesUsedList">HTML, CSS</li>
 								<li className="technologiesUsedList">Javascript</li>
 								<li className="technologiesUsedList">React (JSX)</li>
 								<li className="technologiesUsedList">Bootstrap</li>
@@ -91,10 +87,9 @@ export default class index extends Component {
 								<li className="technologiesUsedList">node.js</li>
 								<li className="technologiesUsedList">Express</li>
 								<li className="technologiesUsedList">Sequelize</li>
-								<li className="technologiesUsedList">
-									MySql / JAWS_DB (Heroku)
-								</li>
-								<li className="technologiesUsedList">Passport-Local and JWT</li>
+								<li className="technologiesUsedList">Passport Js</li>
+								<li className="technologiesUsedList">Json Web Token</li>
+								<li className="technologiesUsedList">MongoDb</li>
 							</ul>
 						</div>
 					</div>
