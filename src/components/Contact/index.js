@@ -39,18 +39,18 @@ export default function index() {
 				<a href="mailto: alexisyep@gmail.com">
 					<h4 style={{ color: "white" }}>
 						<b>
-							<i class="fas fa-envelope-square"></i> alexisyep@gmail.com
+							<i className="fas fa-envelope-square"></i> alexisyep@gmail.com
 						</b>
 					</h4>
 				</a>
 				<h4>
 					<b>
-						<i class="fas fa-phone-square"></i> 905 299 2366
+						<i className="fas fa-phone-square"></i> 905 299 2366
 					</b>
 				</h4>
 				<h4>
 					<b>
-						<i class="fas fa-map-marker-alt"></i> Cambridge, ON
+						<i className="fas fa-map-marker-alt"></i> Cambridge, ON
 					</b>
 				</h4>
 				<br></br>

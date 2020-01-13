@@ -72,6 +72,33 @@ export default function index() {
 							<div className="col-lg-3 col-xs-6 containerTest">
 								<img
 									className="img-fluid imageTest"
+									src="/images/diaryApp.png"
+									alt="pic 0"
+								></img>
+								<a
+									style={{ marginBottom: "30px", width: "100%" }}
+									href="/project14"
+									className="btn btn-info btn1"
+									role="button"
+								>
+									More info
+								</a>
+								<div className="middleTest">
+									<div className="textTest">
+										<h4>Vendor Booker</h4>
+										<hr></hr>
+										<p>
+											This full-stack-app can be used as a virtual diary to
+											write your personal thoughts, memories, or any other
+											important staff you wish to keep secret. Created using
+											React, Node, Express, MongoDb, Passport, JWT, etc.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div className="col-lg-3 col-xs-6 containerTest">
+								<img
+									className="img-fluid imageTest"
 									src="/images/vendorBooker_Logo.png"
 									alt="pic 0"
 								></img>
@@ -118,7 +145,7 @@ export default function index() {
 										<p>
 											This is a Full-stack app made with google-book APIs and
 											React. All types of books are available through
-											google-play store, but you have to buy them yourself :) .
+											google-play store, but you have to buy them yourself.
 										</p>
 									</div>
 								</div>
