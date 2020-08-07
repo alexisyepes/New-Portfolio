@@ -60,7 +60,7 @@ export default function index() {
         </h4>
         <br></br>
         <hr></hr>
-        <a href="/images/alexisyepessanabriaResume.pdf" target="blank">
+        <a href="/images/alex-resume.pdf" target="blank">
           <h4 style={{ color: "white", fontSize: 25 }}>
             <b>Click to view resume</b>
           </h4>
