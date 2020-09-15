@@ -34,8 +34,8 @@ class About extends Component {
                     with these technologies :
                   </h3>
                   <p className="skillsParag">
-                    React Js, Node Js, HTML5, CSS3, SASS, Javascript, GraphQl,
-                    MySql, MongoDB, Nodemailer, Bootstrap, Photoshop,
+                    React Js, Node Js, HTML5, CSS3, SASS, Javascript, Redux,
+                    GraphQl, MySql, MongoDB, Nodemailer, Bootstrap, Photoshop,
                     Illustrator, Express Js, Handlebars.Js, Firebase, Heroku,
                     Ajax, MVC pattern, Git version control
                   </p>
