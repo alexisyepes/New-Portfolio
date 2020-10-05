@@ -28,68 +28,68 @@ import Contact from "./components/Contact";
 import "./App.css";
 
 class App extends Component {
-	state = {
-		sideDrawerOpen: false
-	};
+  state = {
+    sideDrawerOpen: false,
+  };
 
-	drawerToggleClickHandler = () => {
-		this.setState(prevState => {
-			return { sideDrawerOpen: !prevState.sideDrawerOpen };
-		});
-	};
+  drawerToggleClickHandler = () => {
+    this.setState((prevState) => {
+      return { sideDrawerOpen: !prevState.sideDrawerOpen };
+    });
+  };
 
-	backdropClickHandler = () => {
-		this.setState({ sideDrawerOpen: false });
-	};
+  backdropClickHandler = () => {
+    this.setState({ sideDrawerOpen: false });
+  };
 
-	render() {
-		let backdrop;
+  render() {
+    let backdrop;
 
-		if (this.state.sideDrawerOpen) {
-			backdrop = <Backdrop click={this.backdropClickHandler} />;
-		}
-		return (
-			<div>
-				<Router>
-					<div style={{ height: "100%" }}>
-						<Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
-						<SideDrawer show={this.state.sideDrawerOpen} />
-						{backdrop}
-						<main style={{ marginTop: "64px" }}>
-							<br></br>
-						</main>
-					</div>
-					<Switch>
-						<Route exact path="/" component={Home} />
-						<Route exact path="/about" component={About} />
-						<Route exact path="/work" component={Work} />
-						<Route exact path="/contact" component={Contact} />
-						<Route exact path="/project0" component={Project0} />
-						<Route
-							exact
-							path="/project-EventManage"
-							component={ProjectManage}
-						/>
-						<Route exact path="/project1" component={Project1} />
-						<Route exact path="/project2" component={Project2} />
-						<Route exact path="/project3" component={Project3} />
-						<Route exact path="/project4" component={Project4} />
-						<Route exact path="/project5" component={Project5} />
-						<Route exact path="/project6" component={Project6} />
-						<Route exact path="/project7" component={Project7} />
-						<Route exact path="/project8" component={Project8} />
-						<Route exact path="/project9" component={Project9} />
-						<Route exact path="/project10" component={Project10} />
-						<Route exact path="/project11" component={Project11} />
-						<Route exact path="/project12" component={Project12} />
-						<Route exact path="/project13" component={Project13} />
-						<Route exact path="/project14" component={Project14} />
-					</Switch>
-				</Router>
+    if (this.state.sideDrawerOpen) {
+      backdrop = <Backdrop click={this.backdropClickHandler} />;
+    }
+    return (
+      <div>
+        <Router>
+          <div style={{ height: "100%" }}>
+            <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
+            <SideDrawer show={this.state.sideDrawerOpen} />
+            {backdrop}
+            <main style={{ marginTop: "64px" }}>
+              <br></br>
+            </main>
+          </div>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/work" component={Work} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/project0" component={Project0} />
+            <Route
+              exact
+              path="/project-EventManage"
+              component={ProjectManage}
+            />
+            <Route exact path="/project1" component={Project1} />
+            <Route exact path="/project2" component={Project2} />
+            <Route exact path="/project3" component={Project3} />
+            <Route exact path="/project4" component={Project4} />
+            <Route exact path="/project5" component={Project5} />
+            <Route exact path="/project6" component={Project6} />
+            <Route exact path="/project7" component={Project7} />
+            <Route exact path="/project8" component={Project8} />
+            <Route exact path="/project9" component={Project9} />
+            <Route exact path="/project10" component={Project10} />
+            <Route exact path="/project11" component={Project11} />
+            <Route exact path="/project12" component={Project12} />
+            <Route exact path="/project13" component={Project13} />
+            <Route exact path="/project14" component={Project14} />
+          </Switch>
+        </Router>
 
-				<Footer />
-			</div>
-		);
-	}
+        <Footer />
+      </div>
+    );
+  }
 }
 export default App;

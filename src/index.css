@@ -6,10 +6,9 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-image: url('/images/nightSky.jpg');
-  background-repeat: no-repeat;
+  /* background-image: url('/images/nightSky.jpg'); */
+  /* background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover; */
 }
-

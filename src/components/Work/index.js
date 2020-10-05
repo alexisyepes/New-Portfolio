@@ -7,11 +7,18 @@ export default function index() {
       <main className="row">
         <div className="col-md-12 mainBox">
           <article className="block" id="workBox">
-            <h1
-              className="block-header"
-              style={{ marginTop: "20px", textAlign: "center" }}
+            <a
+              className="text-center"
+              href="https://www.aypwebcreations.com/"
+              target="blank"
+              rel="noopener noreferrer"
             >
-              Portfolio
+              <button className="goToFreelancePage-btn">
+                <b>Visit freelance Page for real-life projects</b>
+              </button>
+            </a>
+            <h1 className="block-header">
+              Portfolio <span className="side-projects">(side projects)</span>{" "}
             </h1>
             <hr></hr>
             <br></br>
@@ -475,6 +482,13 @@ export default function index() {
           </article>
         </div>
       </main>
+      <div className="bg-video">
+        <video className="bg-video__content" autoPlay muted loop>
+          <source src="./videos/transition.mp4" type="video/mp4" />
+          <source src="img/video.webm" type="video/webm" />
+          Your browser is not supported!
+        </video>
+      </div>
     </div>
   );
 }

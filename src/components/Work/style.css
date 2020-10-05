@@ -3,10 +3,13 @@
   margin-bottom: 100px;
   border-color: antiquewhite;
   box-shadow: 0px 10px 100px white;
+  border-radius: 5px;
 }
 
 .block-header {
   font-size: 65px;
+  text-align: center;
+  color: white;
 }
 
 .btn1 {
@@ -17,6 +20,10 @@
   color: #fff;
   padding-bottom: 15px;
   border-color: aqua;
+}
+
+.side-projects {
+  font-size: 18px;
 }
 
 .containerTest {
@@ -105,15 +112,34 @@
     width: 100px;
   }
 
-  .imageTest {
+  /* .imageTest {
     width: 100% !important;
     height: auto !important;
-  }
+  } */
 
   .mainBox {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .block-header {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  #connectIcon2Work,
+  #connectIcon1Work {
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media (max-width: 575px) {
+  #connectIcon2Work,
+  #connectIcon1Work {
+    width: 20%;
+    height: auto;
   }
 }
 
@@ -130,16 +156,16 @@
   }
 
   .block-header {
-    font-size: 30px;
+    font-size: 24px;
   }
 
   .middleTest {
     display: none;
   }
 
-  .imageTest {
+  /* .imageTest {
     height: 100px !important;
-  }
+  } */
 
   .btn1 {
     width: 100%;
