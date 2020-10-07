@@ -8,7 +8,7 @@ export default function index() {
         <div className="col-md-12 mainBox">
           <article className="block" id="workBox">
             <a
-              className="text-center"
+              className="text-center nounderline"
               href="https://www.aypwebcreations.com/"
               target="blank"
               rel="noopener noreferrer"
