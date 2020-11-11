@@ -8,7 +8,7 @@ export default class index extends Component {
         <div>
           <a
             target="blank"
-            href="https://github.com/alexisyepes/PetgroomingWebApplication"
+            href="https://github.com/alexisyepes/pet-grooming-public-repo"
           >
             <button type="button" className="btn btn-info p0title-btn1">
               Github
@@ -16,7 +16,7 @@ export default class index extends Component {
           </a>
           <a
             target="blank"
-            href="https://petgroomingwebapplication.herokuapp.com/"
+            href="https://pet-grooming-public-repo.herokuapp.com/"
           >
             <button type="button" className="btn btn-info p0title-btn2">
               Live site
@@ -35,9 +35,19 @@ export default class index extends Component {
             <div className="col-md-6">
               <img
                 alt="project0"
-                src="./images/amazingPetGroomingScreenshot.jpg"
+                src="./images/amazingPetGroomingScreenshot.png"
+                className="project0 mb-2"
+              />
+              <img
+                alt="project0"
+                src="./images/amazingPetGroomingScreenshot1.png"
+                className="project0 mb-2"
+              />
+              <img
+                alt="project0"
+                src="./images/amazingPetGroomingScreenshot2.png"
                 className="project0"
-              ></img>
+              />
             </div>
             <div className="col-md-6 project0TextBox">
               <h1 className="p0description">DESCRIPTION</h1>
@@ -45,10 +55,10 @@ export default class index extends Component {
               <p className="p0projectParag">
                 This application was created for a real pet grooming business to
                 solve a number of issues they were facing before. Note: The code
-                on this repository is not exactly the same as the one being used
-                in production for the business (privacy, database, and
-                confidentiality reasons), but it is close enough to show the
-                overall functionality of this application.<br></br>
+                on this repository is exactly the same as the one being used in
+                production for the business; however this repo is hosted in
+                heroku using a different domain name and database than the one
+                being used in the real app.<br></br>
                 <a
                   target="blank"
                   href="https://github.com/alexisyepes/PetgroomingWebApplication"
@@ -56,16 +66,34 @@ export default class index extends Component {
                   See more detailed information on Github
                 </a>
                 <br></br>
-                Credentials to test the admin page are: <br />
-                test1@test.ca <br />
-                Password: 123456.<br></br>
-                Credentials to test employees page are:
+                Credentials to test the protected pages are: <br />
                 <br />
-                testEmployee@email.com <br />
-                Password: 123456.<br></br>
+                Admin (Has full access to all routes/areas) <br />
+                Email: alexsanabria@fullstackdev.com <br />
+                Password: 123456
+                <hr />
+                Receptionist (Can access the receptionist control panel) <br />
+                Email: maryJohnson@gmail.com <br />
+                Password: 123456 <br />
+                <hr />
+                Groomer 1 (Can only access her/his calendar) <br />
+                Email: nathalies@gmail.com <br />
+                Password: 123456 <br />
+                <hr />
+                Groomer 2 (Can only access her/his calendar) <br />
+                Email: peterpan@gmail.com <br />
+                Password: 123456 <br />
+                <hr />
+                Customer (Can only have access to the Client-registration page){" "}
+                <br />
+                Email: client@gmail.com <br />
+                Password: 123456
               </p>
-              <a href="https://www.amazingpetgrooming.ca" target="blank">
-                Link to real site
+              <a
+                href="https://pet-grooming-public-repo.herokuapp.com/"
+                target="blank"
+              >
+                Link to site hosted in heroku
               </a>
             </div>
           </div>
@@ -73,9 +101,14 @@ export default class index extends Component {
             <div className="col-md-6">
               <img
                 alt="project0"
-                src="./images/amazingPetGroomingScreenshot1.jpg"
+                src="./images/amazingPetGroomingScreenshot3.png"
+                className="project0 mb-2"
+              />
+              <img
+                alt="project0"
+                src="./images/amazingPetGroomingScreenshot4.png"
                 className="project0"
-              ></img>
+              />
             </div>
             <div className="col-md-6 project0TextBox">
               <h1 className="p0building">BUILDING TOOLS</h1>
