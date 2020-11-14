@@ -1,4 +1,6 @@
 .mainBox {
+  padding-top: 100px;
+  margin-top: -100px;
   background: url(/images/squares.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
