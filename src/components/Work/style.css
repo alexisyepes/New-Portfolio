@@ -1,25 +1,23 @@
 .mainBox {
-  background: rgba(0, 0, 0, 0.788);
-  margin-bottom: 100px;
-  border-color: antiquewhite;
-  box-shadow: 0px 10px 100px white;
-  border-radius: 5px;
+  padding-top: 100px;
+  margin-top: -100px;
+  background: url(/images/squares.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .block-header {
-  font-size: 65px;
+  font-size: 45px;
   text-align: center;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
-.btn1 {
-  font-size: 20px;
-  width: 100%;
-  height: 60px;
-  background: rgb(20, 32, 70);
-  color: #fff;
-  padding-bottom: 15px;
-  border-color: aqua;
+.project-face-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-bottom: 100px;
 }
 
 .nounderline {
@@ -34,12 +32,13 @@
   margin: 20px auto 0 auto;
   display: block;
   border-radius: 5px;
-  background-color: rgb(169, 172, 0);
+  background-color: rgb(190, 175, 38);
   color: rgb(255, 255, 255);
   font-weight: 600;
   text-shadow: 2px 2px black;
   transition: all 0.2s;
-  box-shadow: 0px -4px 10px white;
+  -webkit-filter: drop-shadow(0px 3px 3px rgb(135, 206, 228));
+  filter: drop-shadow(0px 3px 3px rgb(135, 206, 228));
 }
 
 .goToFreelancePage-btn:hover {
@@ -133,15 +132,22 @@
   border-radius: 60px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+  .project-face-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (min-device-width: 200px) and (max-device-width: 767px) {
+  .project-face-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* @media only screen and (max-width: 768px) {
   .btn1 {
     width: 100px;
   }
-
-  /* .imageTest {
-    width: 100% !important;
-    height: auto !important;
-  } */
 
   .mainBox {
     width: 100%;
@@ -188,10 +194,6 @@
   .middleTest {
     display: none;
   }
-
-  /* .imageTest {
-    height: 100px !important;
-  } */
 
   .btn1 {
     width: 100%;
@@ -246,4 +248,4 @@
     height: 100px;
     margin-left: -140px;
   }
-}
+} */
