@@ -1,6 +1,4 @@
 .mainBox {
-  padding-top: 100px;
-  margin-top: -100px;
   background: url(/images/squares.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -136,11 +134,41 @@
   .project-face-wrapper {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  #connectIcon2Work,
+  #connectIcon1Work {
+    width: 80%;
+    height: auto;
+  }
 }
 
 @media only screen and (min-device-width: 200px) and (max-device-width: 767px) {
   .project-face-wrapper {
     grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px;
+  }
+
+  #connectBoxWork {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #connectIcon1Work {
+    position: absolute;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 30px;
+  }
+  #connectIcon2Work {
+    float: right;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-left: -140px;
   }
 }
 

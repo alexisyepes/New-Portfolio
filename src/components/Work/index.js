@@ -49,8 +49,7 @@ export default function index() {
           <Project3 />
           <Project2 />
           <Project1 />
-
-          <div className="col-md-6" id="connectBoxWork">
+          <div className="" id="connectBoxWork">
             <h1 className="connectBoxWork">
               <b>Connect with me</b>
             </h1>

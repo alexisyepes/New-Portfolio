@@ -2,10 +2,11 @@
   display: flex;
   -webkit-filter: drop-shadow(0px 3px 10px rgb(0, 0, 0));
   filter: drop-shadow(0px 3px 10px rgb(0, 0, 0));
-  margin: 15px 20px;
+  margin: 15px auto;
   border-radius: 5px;
   background-color: rgb(0, 21, 32);
   padding: 10px;
+  width: 98%;
 }
 
 .img-project {
@@ -31,5 +32,10 @@
 @media only screen and (min-device-width: 200px) and (max-device-width: 767px) {
   .img-project {
     height: auto;
+    width: 100%;
+  }
+
+  .container-project-face {
+    width: 80%;
   }
 }
