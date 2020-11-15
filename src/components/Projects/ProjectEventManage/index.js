@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-import "./style.css";
 
 export default class index extends Component {
   render() {
     return (
-      <div>
+      <div className="mainBox-projects">
         <div>
           <a
             target="blank"
@@ -20,7 +19,7 @@ export default class index extends Component {
             </button>
           </a>
           <a href="/work">
-            <button type="button" className="btn btn-info p1title-btn3">
+            <button type="button" className="btn btn-info p0title-btn3">
               <i className="far fa-arrow-alt-circle-left"></i>Projects
             </button>
           </a>

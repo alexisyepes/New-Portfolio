@@ -1,162 +1,56 @@
 .project1 {
-    width: 100%;
+  width: 100%;
 }
 
 .project1Box {
-    background:rgba(8, 8, 8, 0.897);
-    padding: 30px;
-    color: white;
-    margin-bottom: 100px;
+  background: rgba(8, 8, 8, 0.897);
+  padding: 30px;
+  color: white;
+  margin-bottom: 100px;
 }
 
 .p4projectParag {
-    color: white;
-    font-size: 25px;
+  color: white;
+  font-size: 25px;
 }
 
 .projectTitles {
-    text-align: center;
-    margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 li {
-    font-size: 20px
+  font-size: 20px;
 }
 
 .projectPair {
-    margin-bottom: 30px;
-}
-
-.p4title-btn1 {
-    position: fixed;
-    margin-left: 1080px;
-    z-index: 100;
-    font-size: 28px;
-    background: rgb(5, 23, 56);
-    margin-top: -30px;
-}
-
-.p4title-btn2 {
-    background: rgb(5, 23, 56);
-    margin-left: 1200px;
-    position: fixed;
-    z-index: 100;
-    font-size: 28px;
-    margin-top: -30px;
-}
-
-.p4title-btn3 {
-    background: rgb(5, 23, 56);
-    margin-left: 1340px;
-    position: fixed;
-    z-index: 100;
-    font-size: 16px;
-    margin-top: -30px;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 360px) {
-    .p4title-btn1 {
-        position: fixed;
-        top: 7;
-        left: 0;
-        font-size: 16px;
-        width: 33%;
-        margin-left: 0;
-    }
-    .p4title-btn2 {
-        position: fixed;
-        top: 7;
-        left: 0;
-        font-size: 16px;
-        width: 33%;
-        margin-left: 33%;
-    }
-    .p4title-btn3 {
-        position: fixed;
-        top: 7;
-        left: 0;
-        font-size: 16px;
-        width: 33%;
-        margin-left: 66%;
-    }
+  .p4description,
+  .p1building {
+    font-size: 30px;
+    margin-top: 30px;
+    text-align: center;
+  }
 
-    .p4description, .p1building {
-        font-size: 30px;
-        margin-top: 30px;
-        text-align: center;
-    }
+  .p4projectParag {
+    font-size: 15px;
+  }
 
-    .p4projectParag {
-        font-size: 15px;
-    }
+  .p4titles {
+    font-size: 20px;
+  }
 
-    .p4titles {
-        font-size: 20px;
-    }
+  .p4buildingTitle {
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
 
-    .p4buildingTitle {
-        margin-top: 25px;
-        margin-bottom: 20px;
-    }
-
-    .p4frontTile, .p4backTile {
-        font-size: 20px;
-        text-align: center;
-    }
-}
-
-@media (max-width: 768px) {
-    .p4title-btn1 {
-        position: fixed;
-        top: 7;
-        left: 0;
-        font-size: 16px;
-        width: 33%;
-        margin-left: 0;
-    }
-    .p4title-btn2 {
-        position: fixed;
-        top: 7;
-        left: 0;
-        font-size: 16px;
-        width: 33%;
-        margin-left: 33%;
-    }
-    .p4title-btn3 {
-        position: fixed;
-        top: 7;
-        left: 0;
-        font-size: 16px;
-        width: 33%;
-        margin-left: 66%;
-
-    }
-}
-
-@media (max-width: 1100px) {
-    .p4title-btn1 {
-        position: fixed;
-        top: 7;
-        left: 0;
-        font-size: 16px;
-        width: 33%;
-        margin-left: 0;
-    }
-    .p4title-btn2 {
-        position: fixed;
-        top: 7;
-        left: 0;
-        font-size: 16px;
-        width: 33%;
-        margin-left: 33%;
-    }
-    .p4title-btn3 {
-        position: fixed;
-        top: 7;
-        left: 0;
-        font-size: 16px;
-        width: 33%;
-        margin-left: 66%;
-
-    }
+  .p4frontTile,
+  .p4backTile {
+    font-size: 20px;
+    text-align: center;
+  }
 }

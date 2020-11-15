@@ -4,8 +4,8 @@ import "./style.css";
 export default class index extends Component {
   render() {
     return (
-      <div>
-        <div>
+      <div className="mainBox-projects">
+        <div className="project-info-btn-container">
           <a
             target="blank"
             href="https://github.com/alexisyepes/pet-grooming-public-repo"
@@ -23,7 +23,7 @@ export default class index extends Component {
             </button>
           </a>
           <a href="/work">
-            <button type="button" className="btn btn-info p1title-btn3">
+            <button type="button" className="btn btn-info p0title-btn3">
               <i className="far fa-arrow-alt-circle-left"></i>Projects
             </button>
           </a>
@@ -52,7 +52,7 @@ export default class index extends Component {
             <div className="col-md-6 project0TextBox">
               <h1 className="p0description">DESCRIPTION</h1>
 
-              <p className="p0projectParag">
+              <div className="p0projectParag">
                 This application was created for a real pet grooming business to
                 solve a number of issues they were facing before. Note: The code
                 on this repository is exactly the same as the one being used in
@@ -88,7 +88,7 @@ export default class index extends Component {
                 <br />
                 Email: client@gmail.com <br />
                 Password: 123456
-              </p>
+              </div>
               <a
                 href="https://pet-grooming-public-repo.herokuapp.com/"
                 target="blank"

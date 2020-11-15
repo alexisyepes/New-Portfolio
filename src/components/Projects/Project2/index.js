@@ -4,13 +4,13 @@ import "./style.css";
 export default class index extends Component {
   render() {
     return (
-      <div>
+      <div className="mainBox-projects">
         <div>
           <a
             target="blank"
             href="https://github.com/alexisyepes/google-book-search-react"
           >
-            <button type="button" className="btn btn-info p2title-btn1">
+            <button type="button" className="btn btn-info p0title-btn1">
               Github
             </button>
           </a>
@@ -18,12 +18,12 @@ export default class index extends Component {
             target="blank"
             href="https://googlebooksearch-sanabria.herokuapp.com/"
           >
-            <button type="button" className="btn btn-info p2title-btn2">
+            <button type="button" className="btn btn-info p0title-btn2">
               Live site
             </button>
           </a>
           <a href="/work">
-            <button type="button" className="btn btn-info p2title-btn3">
+            <button type="button" className="btn btn-info p0title-btn3">
               <i className="far fa-arrow-alt-circle-left"></i> to Projects
             </button>
           </a>
