@@ -73,7 +73,7 @@ class About extends Component {
                     </div>
                     <a
                       className="text-center"
-                      href="/images/alex-resume.pdf"
+                      href="/images/new-resume-2021.pdf"
                       target="blank"
                     >
                       <h4 style={{ color: "white", fontSize: 25 }}>

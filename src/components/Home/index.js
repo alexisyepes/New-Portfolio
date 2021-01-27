@@ -19,7 +19,7 @@ export default class index extends Component {
             <br />
             <a
               className="text-center"
-              href="/images/alex-resume.pdf"
+              href="/images/new-resume-2021.pdf"
               target="blank"
             >
               <h4 style={{ color: "white", fontSize: 25 }}>
@@ -27,7 +27,7 @@ export default class index extends Component {
               </h4>
             </a>
 
-            <a
+            {/* <a
               className="text-center"
               href="https://www.aypwebcreations.com/"
               target="blank"
@@ -36,7 +36,7 @@ export default class index extends Component {
               <button className="goToFreelancePage-btn">
                 <b>Go to freelance Page</b>
               </button>
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="bg-video">
