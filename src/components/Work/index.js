@@ -1,5 +1,7 @@
 import React from "react";
 import "./style.css";
+import Project18 from "../ProjectFaces/Project18";
+import Project17 from "../ProjectFaces/Project17";
 import Project16 from "../ProjectFaces/Project16";
 import Project15 from "../ProjectFaces/Project15";
 import Project14 from "../ProjectFaces/Project14";
@@ -21,7 +23,7 @@ export default function index() {
   return (
     <div className=" boxWrapper">
       <div className=" mainBox">
-        <a
+        {/* <a
           className="text-center nounderline"
           href="https://www.aypwebcreations.com/"
           target="blank"
@@ -30,9 +32,11 @@ export default function index() {
           <button className="goToFreelancePage-btn">
             <b>Visit freelance Page for real-life projects</b>
           </button>
-        </a>
+        </a> */}
         <h1 className="block-header">Portfolio</h1>
         <div className="project-face-wrapper">
+          <Project18 />
+          <Project17 />
           <Project16 />
           <Project15 />
           <Project14 />

@@ -81,7 +81,7 @@ export default class index extends Component {
               <ul>
                 <li>node.js</li>
                 <li>Express</li>
-                <li>Mongoose / mLab MongoDB (Heroku)</li>
+                <li>Mongoose / Atlas MongoDB (Heroku)</li>
               </ul>
             </div>
           </div>

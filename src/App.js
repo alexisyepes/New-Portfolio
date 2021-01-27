@@ -22,6 +22,8 @@ import Project11 from "./components/Projects/Project11";
 import Project12 from "./components/Projects/Project12";
 import Project13 from "./components/Projects/Project13";
 import Project14 from "./components/Projects/Project14";
+import Project15 from "./components/Projects/Project15";
+import Project16 from "./components/Projects/Project16";
 import ProjectManage from "./components/Projects/ProjectEventManage";
 
 import Contact from "./components/Contact";
@@ -84,6 +86,8 @@ class App extends Component {
             <Route exact path="/project12" component={Project12} />
             <Route exact path="/project13" component={Project13} />
             <Route exact path="/project14" component={Project14} />
+            <Route exact path="/project15" component={Project15} />
+            <Route exact path="/project16" component={Project16} />
           </Switch>
         </Router>
 

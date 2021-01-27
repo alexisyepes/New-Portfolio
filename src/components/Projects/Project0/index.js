@@ -93,7 +93,7 @@ export default class index extends Component {
                 href="https://pet-grooming-public-repo.herokuapp.com/"
                 target="blank"
               >
-                Link to site hosted in heroku
+                Link to site hosted at heroku
               </a>
             </div>
           </div>
