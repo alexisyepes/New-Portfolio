@@ -58,7 +58,7 @@ export default function index() {
               <b>Connect with me</b>
             </h1>
             <section className="row">
-              <div className="col-sm-6">
+              <div className="col-sm-12">
                 <a href="https://github.com/alexisyepes" target="blank">
                   <img
                     alt="github"
@@ -67,7 +67,7 @@ export default function index() {
                   />
                 </a>
               </div>
-              <div className="col-sm-6">
+              {/* <div className="col-sm-6">
                 <a
                   href="https://www.linkedin.com/in/alexis-sanabria-80002574/"
                   target="blank"
@@ -78,7 +78,7 @@ export default function index() {
                     id="connectIcon2Work"
                   />
                 </a>
-              </div>
+              </div> */}
             </section>
           </div>
         </div>

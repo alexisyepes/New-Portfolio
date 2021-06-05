@@ -11,7 +11,7 @@ export default function index() {
           </h3>
           <hr></hr>
           <section className="row">
-            <div className="col-sm-6">
+            <div className="col-sm-12">
               <a
                 className="connect-links"
                 href="https://github.com/alexisyepes"
@@ -23,7 +23,7 @@ export default function index() {
                 </h3>
               </a>
             </div>
-            <div className="col-sm-6">
+            {/* <div className="col-sm-6">
               <a
                 className="connect-links"
                 href="https://www.linkedin.com/in/alexis-sanabria-80002574/"
@@ -38,7 +38,7 @@ export default function index() {
                   LinkedIn
                 </h3>
               </a>
-            </div>
+            </div> */}
           </section>
           <br></br>
           <br></br>
@@ -61,11 +61,11 @@ export default function index() {
           </h4>
           <br></br>
           <hr></hr>
-          <a href="/images/new-resume-2021.pdf" target="blank">
+          {/* <a href="/images/new-resume-2021.pdf" target="blank">
             <h4 style={{ color: "white", fontSize: 25 }}>
               <b>Click to view resume</b>
             </h4>
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
