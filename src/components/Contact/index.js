@@ -51,11 +51,6 @@ export default function index() {
           </a>
           <h4 className="contact--info">
             <b>
-              <i className="fas fa-phone-square"></i> 905 299 2366
-            </b>
-          </h4>
-          <h4 className="contact--info">
-            <b>
               <i className="fas fa-map-marker-alt"></i> Cambridge, ON
             </b>
           </h4>
