@@ -34,11 +34,12 @@ class About extends Component {
 											with these technologies:
 										</h3>
 										<p className="skillsParag">
-											React Js, Nextjs, Node, Express, HTML5, CSS, SASS, CSS
-											Modules, Javascript, Typescript, Redux, GraphQl, MySql,
-											PostgreSQL, MongoDB, Nodemailer, Bootstrap, Photoshop,
-											Illustrator, Handlebars.Js, Firebase, Heroku, Ajax, MVC
-											pattern, Git
+											Javascript, Typescript, React, Next Js, HTML5, Redux,
+											Context, CSS, CSS Modules, Styled Components, SASS,
+											Bootstrap, Handlebars Js, Firebase, Node, Express,
+											GraphQL, MySql, PostgreSQL, MongoDB, Nodemailer,
+											Photoshop, Illustrator, MVC pattern, Git Version Control,
+											Heroku, Netlify
 										</p>
 										<div className="col-md-12" id="connectBox">
 											<h3>
