@@ -7,7 +7,7 @@ function Footer() {
 			<div className="footer-copyright">
 				<div className="container">
 					<div id="footerText">
-						<b> © 2021 Alexis Yepes Sanabria </b>
+						<b> © 2021 Alex Y</b>
 					</div>
 				</div>
 			</div>

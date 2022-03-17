@@ -46,7 +46,7 @@ class About extends Component {
 												<b>Connect with me</b>
 											</h3>
 											<section className="row">
-												<div className="col-sm-6">
+												<div className="col-sm-12">
 													<a
 														href="https://github.com/alexisyepes"
 														target="blank"
@@ -58,7 +58,7 @@ class About extends Component {
 														/>
 													</a>
 												</div>
-												<div className="col-sm-6">
+												{/* <div className="col-sm-6">
 													<a
 														href="https://www.linkedin.com/in/alexis-sanabria-80002574/"
 														target="blank"
@@ -69,10 +69,10 @@ class About extends Component {
 															id="connectIcon2About"
 														/>
 													</a>
-												</div>
+												</div> */}
 											</section>
 										</div>
-										<a
+										{/* <a
 											className="text-center"
 											href="/images/new-resume-2021.pdf"
 											target="blank"
@@ -80,7 +80,7 @@ class About extends Component {
 											<h4 style={{ color: "white", fontSize: 25 }}>
 												<b>Click to view resume</b>
 											</h4>
-										</a>
+										</a> */}
 									</div>
 								</div>
 							</div>
