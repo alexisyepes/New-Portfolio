@@ -17,7 +17,7 @@ export default class index extends Component {
 							</a>
 						</div>
 						<br />
-						<a
+						{/* <a
 							className="text-center"
 							href="/images/new-resume-2021.pdf"
 							target="blank"
@@ -25,7 +25,7 @@ export default class index extends Component {
 							<h4 style={{ color: "white", fontSize: 25 }}>
 								<b>Click to view resume</b>
 							</h4>
-						</a>
+						</a> */}
 
 						{/* <a
               className="text-center"
