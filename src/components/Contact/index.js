@@ -49,18 +49,18 @@ export default function index() {
 							</b>
 						</h4>
 					</a>
-					<h4 className="contact--info">
+					{/* <h4 className="contact--info">
 						<b>
 							<i className="fas fa-map-marker-alt"></i> Cambridge, ON
 						</b>
-					</h4>
+					</h4> */}
 					<br></br>
 					<hr></hr>
-					<a href="/images/new-resume-2021.pdf" target="blank">
-						<h4 style={{ color: "white", fontSize: 25 }}>
+					{/* <a href="/images/new-resume-2021.pdf" target="blank"> */}
+					{/* <h4 style={{ color: "white", fontSize: 25 }}>
 							<b>Click to view resume</b>
-						</h4>
-					</a>
+						</h4> */}
+					{/* </a> */}
 				</div>
 			</div>
 		</div>
